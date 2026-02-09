@@ -18,7 +18,7 @@ function App() {
     setMovies([...movies, movie]);
     setAddingMovie(false);
   }
-}
+}  
 
     return (
         <div className="container">
