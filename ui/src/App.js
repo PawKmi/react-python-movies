@@ -19,7 +19,7 @@ function App() {
         }
     };
     fetchMovies();
-}, []);
+}, []); 
 
    async function handleAddMovie(movie) {
   const response = await fetch('/movies', {

@@ -28,14 +28,7 @@ export default function MovieForm(props) {
             <label>Year</label>
             <input type="text" value={year} onChange={(event) => setYear(event.target.value)}/>
         </div>
-        <div>
-            <label>Director</label>
-            <input type="text" value={director} onChange={(event) => setDirector(event.target.value)}/>
-        </div>
-        <div>
-            <label>Description</label>
-            <textarea value={description} onChange={(event) => setDescription(event.target.value)}/>
-        </div>
+        
         <button>{props.buttonLabel || 'Submit'}</button>
     </form>;
 }
